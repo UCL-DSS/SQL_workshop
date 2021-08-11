@@ -44,10 +44,14 @@ Once all the necessary software has been downloaded. Using Git Bash or Mac Termi
 
 ![](Images/loading_docker.JPG)
 
-This may take a while, especially for this first time. But once the loading has been completed, you can then access the prep.ipynb workbook which will tell you how to load the data into MySQL.
+This may take a while, especially for this first time. But once the loading has been completed, you can then access the [prep.ipynb](prep.ipynb) workbook which will tell you how to load the data into MySQL.
 
 Once this has been done, we can then use MYSQL Workbench to be able to access the database that you created. In order to connect to the database you will want to open up MYSQL workbench, click on the add connection sign labelled as 1 in the picture below. Set the name of the connection as you want, I called this UCL_DSS_docker. You can then fill in the connection details as in number 3. The password for this comes from the docker-compose.yml file and can be changed to fuit what you want, but for not it is `UCL_DSS`. Test the connection an then you can create the connection.
 
 ![](Images/MySQL_workbench.JPG)
 
-Once this has been completed and a connection has been made, you can then enter the connection and load in the workbook.sql script which will be the basis for the workshop and also the supplementary questions for after the workshop as well.
+Once this has been completed and a connection has been made, you can then enter the connection and load in the workbook.sql script which will be the basis for the workshop and also the supplementary questions for after the workshop as well. This can be done as in the following image:
+
+![](Images/MySQL_script_load.jpg)
+
+Where you then navigate to the [workbook.sql](workbook.sql) script which will be used in the practical.
