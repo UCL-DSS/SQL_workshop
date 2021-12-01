@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+
+  mysql-development:
+    image: mysql:8.0.17
+    environment:
+      MYSQL_ROOT_PASSWORD: UCL_DSS
+      MYSQL_DATABASE: UCL_DSS_db
+    ports:
+      - "3310:3306"
+
+  admin:
+    image: adminer
+    ports:
+      - "8080:8080"
+
